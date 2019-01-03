@@ -1,0 +1,32 @@
+# Add
+package intership2.dao;
+public class Add {
+public String Productid;
+public String Color;
+public int Size;
+public String Shopping_carid;
+public String GetterProductid() {
+	return this.Productid;
+}
+public void SetterProductid(String Productid) {
+	this.Productid=Productid;
+}
+public String GetterColor() {
+	return this.Color;
+}
+public void SetterColor(String Color) {
+	this.Color=Color;
+}
+public int GetterSize() {
+	return this.Size;
+}
+public void SetterSize(int Size) {
+	this.Size=Size;
+}
+public String GetterShopping_carid() {
+	return this.Shopping_carid;
+}
+public void SetterShopping_carid(String Shopping_carid) {
+	this.Shopping_carid=Shopping_carid;
+}
+}
