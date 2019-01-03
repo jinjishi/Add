@@ -1,0 +1,12 @@
+package intership2.dao;
+import java.lang.Exception;
+import java.util.ArrayList;
+
+import intership2.dao.Add;
+public interface AddDAO {
+	public boolean addAdd(Add add) throws Exception; 
+	public boolean delAdd(String sql) throws Exception; 
+	public boolean updateAdd(String sql) throws Exception;
+	public ArrayList<Add> getAdd(String sql) throws Exception;
+
+}
